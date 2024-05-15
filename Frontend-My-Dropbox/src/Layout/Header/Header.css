@@ -1,0 +1,38 @@
+.headerPages  {
+  display: flex;
+  align-items: center;
+
+}
+.create {
+  margin-left: 174%;
+  border: 1px solid;
+}
+.header-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  color: #fff;
+}
+.header-side .buttons {
+  display: flex;
+  gap: 10px;
+  /* margin-left: 150%; */
+}
+
+.header-side .buttons button {
+  
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  background: radial-gradient(circle, rgba(15,26,85,1) 0%, rgba(106,30,90,1) 79%);
+  color: white;
+  border-radius: 3px;
+  font-size: 18px;
+}
+.allFiles {
+  margin-left: 60px;
+}
+.folderIcons {
+  margin-right: 20px;
+}
